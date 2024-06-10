@@ -12,21 +12,6 @@ header {
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1em;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 section {
     padding: 2em;
     margin: 1em;
@@ -56,6 +41,7 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 button:hover {
