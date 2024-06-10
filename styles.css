@@ -12,6 +12,22 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 section {
     padding: 2em;
     margin: 1em;
@@ -46,4 +62,15 @@ button {
 
 button:hover {
     background-color: #555;
+}
+
+.content-section {
+    display: none;
+}
+
+#user-info {
+    background-color: #e7f3fe;
+    padding: 1em;
+    border-radius: 5px;
+    margin-top: 1em;
 }
